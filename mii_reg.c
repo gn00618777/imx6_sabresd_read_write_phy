@@ -1,3 +1,11 @@
+/*usage example:
+
+./mii_reg eth0 4 2
+val=4d
+./mii_reg eth0 4 3
+val=d072
+
+*/
 #include <sys/socket.h>
 #include <sys/un.h>
 #include <stdio.h>
